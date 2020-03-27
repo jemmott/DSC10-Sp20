@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Save The Bees</title>
+
+    <style>
+    
+    body {
+        background-color: goldenrod;
+        background-image: url("honeycomb.jpg");
+        background-repeat: repeat;
+        background-size: 30%;
+
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+
+    h1, h3 {
+        color: white;
+        background-color: black;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-gap: 1em;
+    }
+
+    .pledge {
+        background-color: gold;
+        /* border: 0.25em green outset; */
+        padding: 1em;
+
+        text-align: center;
+    }
+
+    button {
+        font-size: 1.5em;
+        padding: 0.5em;
+        background-color: blueviolet;
+        color: white;
+
+        border-radius: 20px;
+
+        cursor: pointer;
+    }
+
+    button.bee {
+        background-image: url("honeycomb.jpg");
+        background-size: 200%;
+        color: black;
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        padding: 1em;
+    }
+
+    #popup {
+        height: 80%;
+        width: 80%;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        background-color: blueviolet;
+        /* border: 0.25em blue outset; */
+        text-align: center;
+
+        visibility: hidden;
+        display: none;
+
+        box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.7);
+    }
+
+    .close {
+        position: relative;
+        float: right;
+        padding: 0.5em;
+        cursor: pointer;
+    }
+
+    #overlay {
+        margin: auto;
+        visibility: hidden;
+        display: none;
+    }
+    
+    </style>
+</head>
+<body>
+
+    <div id="overlay">
+        <h1>Thanks for pledging!</h1>
+        <img src="https://vignette.wikia.nocookie.net/beemovie/images/1/11/Barry-B-Benson.png/revision/latest?cb=20171026231320">
+    </div>
+
+    <div id="popup">
+        <div class="close" onclick="closePopup();">X</div>
+        <h1>IT'S TIME TO SAVE THE BEES</h1>
+        <h3>Stop everything you're doing and pledge</h3>
+        <hr>
+        <p>
+            Take a moment to pledge your soul in order to save the bees!
+        </p>
+        <button class="bee" onclick="showOver();">PLEDGE</button>
+    </div>
+    
+    <div class="main">
+        <div class="content">
+            <h1>Welcome to CALPIRG</h1>
+            <h3>Do you have a minute to talk about...</h3>
+            <hr>
+            <p>
+                Sometimes I cover myself in honey and roll around in my neighbor's flower garden
+                so that I can feel what it's like to be a bee.
+            </p>
+            <div class="links">
+                <a href="">About</a>
+                <a href="">Merch</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+        <div class="pledge">
+            <h1>SAVE THE BEES</h1>
+            <h3>Pledge Here</h3>
+            <hr>
+            <p>
+                Take a moment to pledge your soul in order to save the bees!
+            </p>
+            <button onclick="showOver();">PLEDGE</button>
+        </div>
+    </div>
+
+</body>
+
+<script>
+window.onload = function () {
+    rand = Math.random();
+    console.log(rand);
+    if (rand < 0.5) {
+        showPopup();
+    }
+}
+
+function showPopup() {
+    let popup = document.getElementById("popup");
+    popup.style.visibility = "visible";
+    popup.style.display = "block";
+}
+
+function closePopup() {
+    let popup = document.getElementById("popup");
+    popup.style.visibility = "hidden";
+    popup.style.display = "none";
+}
+
+function showOver() {
+    closePopup();
+
+    let over = document.getElementById("overlay");
+    over.style.visibility = "visible";
+    over.style.display = "block";
+}
+</script>
+
+</html>

@@ -1,0 +1,14 @@
+.ipynb_checkpoints
+.ok_messages
+.ok_storage
+.ok*
+__pycache__
+*.out*
+build
+env
+<<<<<<< HEAD
+*.swp
+=======
+__pycache__
+.DS_store
+>>>>>>> ae70f05be7d4074e46a3c6129c39247b39c78bb6
