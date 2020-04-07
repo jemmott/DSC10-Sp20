@@ -1,6 +1,6 @@
 {
   "name": "Lab 2: Arrays and Tables",
-  "endpoint": "ucsd/dsc10/wi20/lab02",
+  "endpoint": "ucsd/dsc10/sp20/lab02",
   "src": [
     "lab.ipynb"
   ],
