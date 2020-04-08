@@ -1,6 +1,6 @@
 {
   "name": "Homework 2: Arrays and Tables",
-  "endpoint": "ucsd/dsc10/wi20/hw02",
+  "endpoint": "ucsd/dsc10/sp20/hw02",
   "src": [
     "hw.ipynb"
   ],
