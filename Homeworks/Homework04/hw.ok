@@ -1,0 +1,15 @@
+{
+  "name": "Homework 4: Iteration, Randomness",
+  "endpoint": "ucsd/dsc10/sp20/hw04",
+  "src": [
+    "hw.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
