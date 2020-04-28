@@ -1,6 +1,6 @@
 {
   "name": "Statistics_and_sampling",
-  "endpoint": "ucsd/dsc10/wi20/lab05",
+  "endpoint": "ucsd/dsc10/sp20/lab05",
   "src": [
     "lab.ipynb"
   ],
