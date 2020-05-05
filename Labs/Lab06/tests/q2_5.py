@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> hypothesis == 1
+          >>> hypothesis == 2
           True
           """,
           'hidden': False,
