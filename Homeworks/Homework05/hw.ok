@@ -1,0 +1,15 @@
+{
+  "name": "Homework 5: Probability and Hypothesis Testing",
+  "endpoint": "ucsd/dsc10/sp20/hw05",
+  "src": [
+    "hw.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
