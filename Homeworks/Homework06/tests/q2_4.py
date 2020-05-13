@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(carb_quartiles, np.ndarray)
+          >>> isinstance(sugar_quartiles, np.ndarray)
           True
           """,
           'hidden': False,
