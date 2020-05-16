@@ -1,0 +1,15 @@
+{
+  "name": "Project 2: College Admissions & SDPD",
+  "endpoint": "ucsd/dsc10/sp20/project02",
+  "src": [
+    "project02.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
