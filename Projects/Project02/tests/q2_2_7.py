@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0.0 <= colleges_p_value <= 0.05
+          >>> 0.0 <= colleges_p_value <= 0.1
           True
           """,
           'hidden': False,

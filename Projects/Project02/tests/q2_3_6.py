@@ -8,8 +8,6 @@ test = {
           'code': r"""
           >>> isinstance(enrollment_explanations, list)
           True
-          >>> all([x in (1,2,3,4) for x in totchol_diabp_explanations])
-          True
           """,
           'hidden': False,
           'locked': False

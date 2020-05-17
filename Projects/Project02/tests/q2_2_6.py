@@ -1,13 +1,12 @@
 test = {
-  'name': 'Question 2.3.4',
+  'name': 'Question 2.2.6',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> # Correlation Coefficients are between -1 and 1
-          >>> -1 <= r_framingham <= 1
+          >>> len(colleges_simulated_stats) == 1000
           True
           """,
           'hidden': False,

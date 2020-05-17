@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> type(framingham_diabetes_possibilities) == int
+          >>> type(possibilities) == list
           True
           """,
           'hidden': False,
