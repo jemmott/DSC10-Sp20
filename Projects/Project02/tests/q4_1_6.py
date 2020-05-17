@@ -6,8 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> len(chol_simulated_stats) 
-          1000
+          >>> isinstance(changes, bpd.DataFrame)
+          True
           """,
           'hidden': False,
           'locked': False

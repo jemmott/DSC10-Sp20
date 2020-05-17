@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 4.2.5',
+  'name': 'Question 4.2.3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(negative_trends, list)
+          >>> callable(getSlope)
           True
           """,
           'hidden': False,

@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 3.3',
+  'name': 'Question 4.1.5',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(mortality_valid_conclusions) in (np.ndarray, list)
+          >>> len(p_values) == 10
+          True
+          >>> len(percentDrops) == 10
           True
           """,
           'hidden': False,

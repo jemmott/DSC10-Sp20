@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 10 <= chol_observed_statistic <= 15
+          >>> descriptionList.shape[0] > 1
           True
           """,
           'hidden': False,

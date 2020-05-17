@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 4.2.5',
+  'name': 'Question 3.1.1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(negative_trends, list)
+          >>> callable(getDate)
+          True
+          >>> isinstance(policeCalls, bpd.DataFrame)
           True
           """,
           'hidden': False,

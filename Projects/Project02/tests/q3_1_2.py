@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 4.1.3',
+  'name': 'Question 3.1.2',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> compute_chol_test_statistic(serum_cholesterol) - 12.82934 < .0001
+          >>> countByDay.shape[0] > 1
           True
           """,
           'hidden': False,

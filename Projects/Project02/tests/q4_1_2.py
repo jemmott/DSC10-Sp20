@@ -6,7 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> larger_chol_stat in [1,2]
+          >>> before.shape[0] > 1
+          True
+          >>> after.shape[0] > 1
           True
           """,
           'hidden': False,

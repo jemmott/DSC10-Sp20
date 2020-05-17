@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 4.2.5',
+  'name': 'Question 3.2.4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(negative_trends, list)
+          >>> callable(plotByDay)
           True
           """,
           'hidden': False,

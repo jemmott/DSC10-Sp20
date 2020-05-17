@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 4.2.5',
+  'name': 'Question 3.1.7',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(negative_trends, list)
+          >>> len(dropPercents) == 10000
           True
           """,
           'hidden': False,
