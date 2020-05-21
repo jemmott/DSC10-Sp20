@@ -9,7 +9,7 @@ test = {
           >>> import numbers
           >>> callable(calculate_ci)
           True
-          >>> lower, upper = calculate_ci(np.array([1, 2, 3, 4, 5, 6])
+          >>> lower, upper = calculate_ci(np.array([1, 2, 3, 4, 5, 6]))
           >>> isinstance(lower, numbers.Real)
           True
           >>> isinstance(upper, numbers.Real)

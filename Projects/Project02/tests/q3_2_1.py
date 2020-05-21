@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.DataFrame)
+          >>> isinstance(topCalls, bpd.Series)
           True
           """,
           'hidden': False,
