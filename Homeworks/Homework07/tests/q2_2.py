@@ -1,12 +1,16 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'Question 2_2',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> len(hum_averages) == 1000
+          True
+          >>> isinstance(lower_bound, float)
+          True
+          >>> isinstance(upper_bound, float)
           True
           """,
           'hidden': False,
@@ -14,7 +18,6 @@ test = {
         }
       ],
       'scored': True,
-      'setup': '',
       'teardown': '',
       'type': 'doctest'
     }

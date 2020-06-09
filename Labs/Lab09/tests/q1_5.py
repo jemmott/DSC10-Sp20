@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'q1_5',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> correlation_guess == 1
           True
           """,
           'hidden': False,

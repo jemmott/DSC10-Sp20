@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'Question 1_2',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> isinstance(boot_leads, np.ndarray)
+          True
+          >>> len(boot_leads) == 1000
           True
           """,
           'hidden': False,
@@ -14,7 +16,7 @@ test = {
         }
       ],
       'scored': True,
-      'setup': '',
+      'setup': 'import numbers',
       'teardown': '',
       'type': 'doctest'
     }

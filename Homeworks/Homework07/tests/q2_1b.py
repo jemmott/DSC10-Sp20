@@ -1,20 +1,18 @@
 test = {
-  'name': 'Question 2.3.3',
+  'name': 'Question 2_1b',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> import numbers
-          >>> callable(calculate_ci)
+          >>> isinstance(writing_fixed, bpd.DataFrame)
           True
-          >>> lower, upper = calculate_ci(np.array([1, 2, 3, 4, 5, 6]))
-          >>> isinstance(lower, numbers.Real)
+          >>> set(writing_fixed.columns.values) == {'Study Hrs/wk', 'course', 'grades'}
           True
-          >>> isinstance(upper, numbers.Real)
+          >>> isinstance(course_means_fixed, bpd.DataFrame)
           True
-          >>> lower_bound <= upper_bound
+          >>> set(course_means_fixed.columns.values) == {'Study Hrs/wk', 'grades'}
           True
           """,
           'hidden': False,
@@ -22,7 +20,6 @@ test = {
         }
       ],
       'scored': True,
-      'setup': '',
       'teardown': '',
       'type': 'doctest'
     }

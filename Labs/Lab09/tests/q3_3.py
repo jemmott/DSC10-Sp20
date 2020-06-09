@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'q3_3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> abs(sum(faithful_residuals.iloc[:, 3])) <= 1e-8
           True
           """,
           'hidden': False,

@@ -1,13 +1,13 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'q1_6',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
-          True
+          >>> "%.2f" % round(r,2)
+          '0.90'
           """,
           'hidden': False,
           'locked': False

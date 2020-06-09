@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> width_as_proportion > 0.01 and width_as_proportion < 0.012
           True
           """,
           'hidden': False,

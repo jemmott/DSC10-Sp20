@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'Question 3_3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> callable(empirical_sd) # your answer should be a function called `empirical_sd`
+          True
+          >>> isinstance(empirical_sd(10), numbers.Real) # your function should output a number
           True
           """,
           'hidden': False,
@@ -14,8 +16,8 @@ test = {
         }
       ],
       'scored': True,
-      'setup': '',
       'teardown': '',
+      'setup': 'import numbers',
       'type': 'doctest'
     }
   ]

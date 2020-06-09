@@ -1,13 +1,15 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'q2_1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> (slope*13 - 100)/98 <= 0.5
           True
+          >>> (182 + intercept*(-4)) / 201 >= 0.3
+          False
           """,
           'hidden': False,
           'locked': False

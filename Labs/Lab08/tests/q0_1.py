@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> circuits_midterm_var > 172 and circuits_midterm_var < 174
+          True
+          >>> spanish_midterm_var > 83 and spanish_midterm_var < 85
           True
           """,
           'hidden': False,

@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'Question 2_3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> callable(ci_and_hist) # your answer should be a function called `ci_and_hist`
           True
           """,
           'hidden': False,
@@ -14,7 +14,6 @@ test = {
         }
       ],
       'scored': True,
-      'setup': '',
       'teardown': '',
       'type': 'doctest'
     }

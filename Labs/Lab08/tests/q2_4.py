@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> population_sd > 0.4 and population_sd < 0.5
           True
           """,
           'hidden': False,

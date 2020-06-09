@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'Question 2_5a',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> isinstance(study_lower_bound, float)
+          True
+          >>> isinstance(study_upper_bound, float)
           True
           """,
           'hidden': False,
@@ -14,7 +16,6 @@ test = {
         }
       ],
       'scored': True,
-      'setup': '',
       'teardown': '',
       'type': 'doctest'
     }

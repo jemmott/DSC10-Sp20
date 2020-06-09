@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 3.2.1',
+  'name': 'Question 2_5b',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(topCalls, bpd.Series)
+          >>> isinstance(study_hypotheses, np.ndarray)
+          True
+          >>> len(study_hypotheses) == 5
           True
           """,
           'hidden': False,
@@ -14,7 +16,6 @@ test = {
         }
       ],
       'scored': True,
-      'setup': '',
       'teardown': '',
       'type': 'doctest'
     }
